@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href={{ url_for("static", filename="css/styles.css")
+  }}>
+    <!-- This is to test the page without having to run main1.py -->
+    <link rel="stylesheet" href="../static/css/styles.css">
+  </head>
+  <body>
+    <h1>This tool computes factorial (n!)</h1>
+    <p class="mytext">{{ input }}! = {{ factorial }}</p>
+  </body>
+</html>
